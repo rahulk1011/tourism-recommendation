@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Recommendation</title>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="body" height="500">
+
+<form action="recommend.php" method="post">
+
+<table id="table" align="center">
+	<tr>
+	<td width="230"><h3>Name</h3></td>
+	<td><input type="text" name="name" size="40" required></td>
+	</tr>
+	<tr>
+	<td width="230"><h3>Email</h3></td>
+	<td><input type="text" name="email" size="40" required></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" class="button" value="Show Recommendations"></td>
+	</tr>
+</table>
+</form>
+
+</div>
+</div>
+
+<br>
+
+<div id="container">
+
+<div id="body" height="500">
+
+<form action="result.php" method="post">
+
+	<table align="center">
+	<tr>
+	<td width="230"><h3>Name</h3></td>
+	<td><input type="text" name="name" size="40" required></td>
+	</tr>
+	<tr>
+	<td width="230"><h3>Email</h3></td>
+	<td><input type="text" name="semail" size="40" required></td>
+	</tr>
+	<tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" class="button" value="Check Similarity"></td>
+	</tr>
+	</table>
+
+</form>
+
+</div>
+</div>
+
+</body>
+</html>

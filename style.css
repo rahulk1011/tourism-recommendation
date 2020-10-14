@@ -1,0 +1,51 @@
+body {
+    background-color: darkslategray;
+    font-family: Calibri;
+}
+
+#container {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 5px;	
+}
+
+#body {
+    background-color: lightyellow;
+    width: auto;
+    height: 100%;
+	border: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 5px;
+    font-family: Calibri;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: navy;
+    font-family: Calibri;
+}
+
+#table {
+	padding: 3px;
+	border-spacing: 3px;
+	border: 1px;
+}
+
+p {
+    color: navy;
+    font-family: Calibri;
+}
+
+.button {
+    background-color: firebrick;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
